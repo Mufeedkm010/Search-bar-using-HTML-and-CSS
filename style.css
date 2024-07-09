@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0c0c0c;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #f9fcfa;
+    border-radius: 25px;
+    overflow: hidden;
+    width: 500px;
+}
+
+.container input[type="text"] {
+    font-size: large;
+    border: none;
+    padding: 25px;
+    width: 400%;
+    outline: none;
+}
+.container button img {
+    width: 65px;
+    border: none;
+}
